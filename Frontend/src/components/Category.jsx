@@ -1,4 +1,3 @@
-import React from "react";
 import cat2 from "../assets/cat2.png";
 import cat1 from "../assets/cat1.png";
 import { FiArrowRight } from "react-icons/fi";
