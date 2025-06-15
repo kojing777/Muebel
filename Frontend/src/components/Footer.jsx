@@ -5,6 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-100 text-gray-600 pt-12 px-6 md:px-16 lg:px-24 xl:px-32">
       <div className="flex flex-wrap justify-between gap-12 md:gap-6">
         {/* Logo and Social */}
+        
         <div className="max-w-md">
           <img
             src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/dummyLogoColored.svg"

@@ -14,6 +14,7 @@ const Category = () => {
         </p>
       </div>
 
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
         {/* Category 1 */}
         <div className="overflow-hidden rounded-xl">
