@@ -18,6 +18,9 @@ const NewArrivels = () => {
           <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-orange-200/20 blur-xl"></div>
         </div>
 
+
+        
+
         {/* Text Content Section - Enhanced typography and spacing */}
         <div className="w-full lg:w-[40%] text-start space-y-6 lg:pl-8 xl:pl-12 relative z-10">
           {/* Badge with animation */}
