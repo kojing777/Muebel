@@ -24,7 +24,7 @@ const TopPicks = () => {
       price: "Rs. 12,999.00",
       image: officetable,
       tag: "New Arrival", 
-      tagColor: "bg-blue-100 text-blue-800" 
+      tagColor: "bg-blue-200 text-blue-800" 
     },
     {
       id: 3,
