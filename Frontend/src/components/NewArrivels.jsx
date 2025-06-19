@@ -18,18 +18,15 @@ const NewArrivels = () => {
           <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-orange-200/20 blur-xl"></div>
         </div>
 
-
-        
-
         {/* Text Content Section - Enhanced typography and spacing */}
         <div className="w-full lg:w-[40%] text-start space-y-6 lg:pl-8 xl:pl-12 relative z-10">
           {/* Badge with animation */}
           <div className="inline-flex items-center gap-2 text-gray-700 text-sm font-medium px-3 py-1 bg-white/80 rounded-full border border-gray-200 shadow-sm animate-bounce-slow">
-            <svg 
-              width="16" 
-              height="16" 
-              viewBox="0 0 16 16" 
-              fill="none" 
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
               className="text-yellow-500"
             >
               <path
@@ -41,7 +38,7 @@ const NewArrivels = () => {
             </svg>
             <span className="text-gray-800">NEW ARRIVALS</span>
           </div>
-          
+
           {/* Headline with creative styling */}
           <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight tracking-tight">
             <span className="relative inline-block">
@@ -53,14 +50,14 @@ const NewArrivels = () => {
               SOFA
             </span>
           </h1>
-          
+
           {/* Description with improved readability */}
           <p className="text-gray-700 text-lg md:text-xl leading-relaxed max-w-lg">
-            Handcrafted Scandinavian sofa with premium aniline leather. 
-            Features ergonomic design with pocket spring cushions for 
-            ultimate comfort. Available in 6 exclusive colors.
+            Handcrafted Scandinavian sofa with premium aniline leather. Features
+            ergonomic design with pocket spring cushions for ultimate comfort.
+            Available in 6 exclusive colors.
           </p>
-          
+
           {/* CTA button with hover effects */}
           <div className="pt-4">
             <button className="relative overflow-hidden bg-gradient-to-r from-purple-600 to-blue-600 text-white text-lg md:text-xl font-bold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group">
@@ -68,7 +65,7 @@ const NewArrivels = () => {
               <span className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               <span className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-white/20 group-hover:animate-shine transition-all duration-500"></span>
             </button>
-            
+
             {/* Additional info */}
             <p className="mt-3 text-sm text-gray-600">
               Free shipping & 30-day return policy
@@ -80,11 +77,18 @@ const NewArrivels = () => {
       {/* Custom animations */}
       <style jsx>{`
         @keyframes bounce-slow {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-5px); }
+          0%,
+          100% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(-5px);
+          }
         }
         @keyframes shine {
-          100% { left: 125%; }
+          100% {
+            left: 125%;
+          }
         }
         .animate-bounce-slow {
           animation: bounce-slow 3s infinite;
