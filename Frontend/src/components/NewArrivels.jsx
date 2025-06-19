@@ -38,9 +38,7 @@ const NewArrivels = () => {
             </svg>
             <span className="text-gray-800">NEW ARRIVALS</span>
           </div>
-
-
-          {/* Headline with creative styling */}
+       {/* Headline with creative styling */}
           <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight tracking-tight">
             <span className="relative inline-block">ASGAARD</span>
             <br />
