@@ -92,7 +92,6 @@ const Blogs = () => {
             </div>
           ))}
         </div>
-        
 
         <div className="text-center mt-12 lg:mt-16 animate-fade-in">
           <button className="inline-flex items-center px-6 py-3 bg-white border border-gray-200 text-gray-700 font-medium rounded-full hover:bg-gray-50 transition-all hover:shadow-md hover:border-gray-300 group">
