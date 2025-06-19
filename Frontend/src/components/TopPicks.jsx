@@ -77,7 +77,7 @@ const TopPicks = () => {
               <p className="text-gray-600 text-sm mb-3">{product.description}</p>
               <div className="flex justify-between items-center">
                 <span className="text-lg font-bold text-purple-700">{product.price}</span>
-                <button className="text-purple-700 hover:text-purple-900 transition-colors">
+                <button className="text-purple-600 hover:text-purple-900 transition-colors">
                   <TbShoppingCart className="w-10 h-6" />
                 </button>
               </div>
@@ -88,7 +88,7 @@ const TopPicks = () => {
 
       <div className="text-center">
         <button className="inline-flex items-center px-6 py-3 border border-purple-600 text-purple-700 font-medium rounded-full hover:bg-purple-50 transition-colors">
-          View More Products
+          View More
           <FiArrowRight className="ml-2" />
         </button>
       </div>

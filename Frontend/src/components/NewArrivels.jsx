@@ -8,7 +8,7 @@ const NewArrivels = () => {
         <div className="w-full lg:w-[60%] flex justify-center items-center relative group">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 -rotate-12 scale-125"></div>
           <img
-            className="w-full max-w-2xl lg:max-w-3xl xl:max-w-4xl object-contain transform transition-all duration-500 group-hover:scale-105 group-hover:rotate-1"
+            className="w-full max-w-2xl lg:max-w-3xl xl:max-w-4xl object-contain transform transition-all duration-500 "
             src={newArriver}
             alt="Premium Asgaard Sofa"
             loading="lazy"
@@ -41,16 +41,12 @@ const NewArrivels = () => {
 
           {/* Headline with creative styling */}
           <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl text-gray-900 leading-tight tracking-tight">
-            <span className="relative inline-block">
-              ASGAARD
-              <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-orange-400 to-yellow-300 rounded-full"></span>
-            </span>
+            <span className="relative inline-block">ASGAARD</span>
             <br />
             <span className="inline-block bg-gradient-to-r from-orange-500 to-amber-500 text-white font-extrabold px-4 py-1 rounded-md shadow-lg transform transition-all hover:scale-105 hover:rotate-1">
               SOFA
             </span>
           </h1>
-
           {/* Description with improved readability */}
           <p className="text-gray-700 text-lg md:text-xl leading-relaxed max-w-lg">
             Handcrafted Scandinavian sofa with premium aniline leather. Features
