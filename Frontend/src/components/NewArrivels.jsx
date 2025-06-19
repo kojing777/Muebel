@@ -61,6 +61,7 @@ const NewArrivels = () => {
               <span className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-white/20 group-hover:animate-shine transition-all duration-500"></span>
             </button>
 
+
             {/* Additional info */}
             <p className="mt-3 text-sm text-gray-600">
               Free shipping & 30-day return policy
