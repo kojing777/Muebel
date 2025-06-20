@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
-import Category from '../components/Category'
 import TopPicks from '../components/TopPicks'
 import NewArrivels from '../components/NewArrivels'
 import Blogs from '../components/Blogs'
@@ -13,7 +12,6 @@ const Home = () => {
     <div>
         <Navbar/>
         <Hero/>
-        <Category/>
         <TopPicks/>
         <NewArrivels/>
         <Blogs/>
